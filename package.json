@@ -1,0 +1,34 @@
+{
+  "name": "umaxica-app-status",
+  "version": "0.0.1",
+  "description": "independent status page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seahal/umaxica-app-status.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seahal/umaxica-app-status/issues"
+  },
+  "homepage": "https://github.com/seahal/umaxica-app-status#readme",
+  "dependencies": {
+    "@vercel/react-router": "^1.1.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
